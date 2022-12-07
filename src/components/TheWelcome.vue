@@ -4,7 +4,7 @@
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(msgList)[0]"></component>
+      <component :is="Object.values(msgList)[j]"></component>
     </div>
     <div class="w-full hid">
 
