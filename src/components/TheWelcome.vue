@@ -4,13 +4,13 @@
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(msgList)[1]"></component>
+      <component :is="Object.values(msgList)[j]"></component>
     </div>
     <div class="w-full hid">
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(animalList)[0]"></component>
+      <component :is="Object.values(animalList)[innerWidth]"></component>
     </div>
   </div>
 </template>
