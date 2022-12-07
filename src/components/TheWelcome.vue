@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-col">
+  <div class="container flex flex-col h-screen">
     <div class="w-full hid">
       ------------------------------------------------------------------------------------------------------------------
     </div>
@@ -10,7 +10,7 @@
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(animalList)[innerWidth]"></component>
+      <component :is="Object.values(animalList)[i]"></component>
     </div>
   </div>
 </template>

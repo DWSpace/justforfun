@@ -1,6 +1,6 @@
 <template>
 
-  <div class="font-semibold leading-4">
+  <div class="font-bold leading-4">
     <h2> ......*.*.*......*.*.*.....</h2>
     <h2>.*.*......*.*..*.*....*.*.</h2>
     <h2>*.*............*...........*.</h2>
