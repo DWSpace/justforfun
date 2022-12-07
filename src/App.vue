@@ -1,8 +1,9 @@
 <template>
   <div class="flex flex-col bg-[url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1813&q=80')]
     bg-cover
-    h-auto
-    bg-fixed">
+    h-screen
+    bg-fixed
+    overflow-y-scroll">
     <header class="container sticky top-0 bg-slate-200/50 shadow-lg shadow-black">
       <div class="uppercase py-2 text-center text-lg font-mono">
         <HelloWorld :msg="strReturn()" />
@@ -12,9 +13,8 @@
   </div>
 </template>
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
 const msg = ['Chái tim cho người yêu',
   'Chương nhắm á',
   'A bê xê ít y zét',

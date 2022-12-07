@@ -4,17 +4,14 @@
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(msgList)[j]"></component>
+      <component :is="Object.values(msgList)[1]"></component>
     </div>
     <div class="w-full hid">
-
       ------------------------------------------------------------------------------------------------------------------
     </div>
     <div class="text-center">
-      <component :is="Object.values(animalList)[i]"></component>
-
+      <component :is="Object.values(animalList)[0]"></component>
     </div>
-
   </div>
 </template>
 
@@ -51,5 +48,10 @@ onBeforeMount(() => {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
+}
+
+.fixed-content {
+  position: fixed;
+  overflow-y: scroll;
 }
 </style>
